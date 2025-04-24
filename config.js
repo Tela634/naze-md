@@ -42,8 +42,8 @@ global.mess = {
     private: ' Text for Private Chat Only 🧖!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
     wait: 'Loading🇰🇪🇰🇪🇰🇪🇰🇪,
-    error: ' Error🔱!',
-    errapi: 'Not known📵!',
+    error: 'error',
+    errapi: 'invalid!',
     errmor: 'fitur  Sistem',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
 }
