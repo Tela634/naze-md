@@ -43,7 +43,7 @@ const { Primbon } = require('scrape-primbon')
 const primbon = new Primbon()
 const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom, getGroupAdmins } = require('./lib/myfunc')
 
-const hariini = moment.tz('Asia/Jakarta').format('dddd, DD MMMM YYYY')
+const hariini = moment.tz('Africa/Kenya').format('dddd, DD MMMM YYYY')
 const hariiini = moment.tz('Asia/Jakarta').format('DD MMMM YYYY')
 const barat = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 const tengah = moment.tz('Asia/Makassar').format('HH:mm:ss')
@@ -55,24 +55,24 @@ global.prem = require("./lib/premium")
 gambar = fs.readFileSync('./media/image/naze.jpg')
 
 //TIME
-const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')  
+const time2 = moment().tz('Africa/Kenya').format('HH:mm:ss')  
  if(time2 < "23:59:00"){
-var ucapanWaktu = 'Selamat Malam 🌌'
+var ucapanWaktu = 'Good Midnight  🌌'
  }
  if(time2 < "19:00:00"){
-var ucapanWaktu = 'Selamat Sore 🌃'
+var ucapanWaktu = 'Good Night 🌃'
  }
  if(time2 < "18:00:00"){
-var ucapanWaktu = 'Selamat Sore 🌅'
+var ucapanWaktu = 'Good Evening 🌅'
  }
  if(time2 < "15:00:00"){
-var ucapanWaktu = 'Selamat Siang 🏙'
+var ucapanWaktu = 'Good Afternoon 🏙'
  }
  if(time2 < "11:00:00"){
-var ucapanWaktu = 'Selamat Pagi 🌄'
+var ucapanWaktu = 'Good Morning 🌄'
  }
  if(time2 < "05:00:00"){
-var ucapanWaktu = 'Selamat Pagi 🌉'
+var ucapanWaktu = 'Good Morning  🌉'
  } 
  
 // read database
