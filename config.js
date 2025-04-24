@@ -41,8 +41,7 @@ global.mess = {
     group: 'Command Only in Groups👥!',
     private: ' Text for Private Chat Only 🧖!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: 'Loading🇰🇪🇰🇪🇰🇪🇰🇪,
-    error: 'try again',
+    wait: 'Loading🇰🇪🇰🇪🇰🇪🇰🇪,'
     errapi: 'invalid!',
     errmor: 'fitur  Sistem',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
