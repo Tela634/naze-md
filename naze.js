@@ -158,7 +158,7 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
                 if (!isNumber(user.limit)) user.limit = limitUser
             } else global.db.data.users[m.sender] = {
                 afkTime: -1,
-                afkReason: '',
+                afkReason: 'Owner is Busy',
                 limit: limitUser,
             }
     
@@ -166,10 +166,10 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
             if (typeof chats !== 'object') global.db.data.chats[m.chat] = {}
             if (chats) {
                 if (!('mute' in chats)) chats.mute = false
-                if (!('antilink' in chats)) chats.antilink = false
+                if (!('antilink' in chats)) chats.antilink = true
             } else global.db.data.chats[m.chat] = {
-                mute: false,
-                antilink: false,
+                mute: true,
+                antilink: true,
             }
 		
 	    let setting = global.db.data.settings[botNumber]
@@ -183,7 +183,7 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 		if (!('templateMsg' in setting)) setting.templateMsg = false	
 	    } else global.db.data.settings[botNumber] = {
 		status: 0,
-		autobio: false,
+		autobio: true,
 		templateImage: true,
 		templateVideo: false,
 		templateGif: false,
