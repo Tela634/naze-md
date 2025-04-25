@@ -43,7 +43,7 @@ const { Primbon } = require('scrape-primbon')
 const primbon = new Primbon()
 const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom, getGroupAdmins } = require('./lib/myfunc')
 
-const hariini = moment.tz('Africa/Kenya').format('dddd, DD MMMM YYYY')
+const hariini = moment.tz('EastAfrica/Kenya').format('dddd, DD MMMM YYYY')
 const hariiini = moment.tz('Asia/Jakarta').format('DD MMMM YYYY')
 const barat = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 const tengah = moment.tz('Asia/Makassar').format('HH:mm:ss')
@@ -55,7 +55,7 @@ global.prem = require("./lib/premium")
 gambar = fs.readFileSync('./media/image/naze.jpg')
 
 //TIME
-const time2 = moment().tz('Africa/Kenya').format('HH:mm:ss')  
+const time2 = moment().tz('EastAfrica/Kenya').format('HH:mm:ss')  
  if(time2 < "23:59:00"){
 var ucapanWaktu = 'Good Midnight  🌌'
  }
@@ -3643,7 +3643,7 @@ rules = `╭──❍ *Rules BOT*
 │
 │ *Intinya Jangan Spam❗*
 │
-╰────❍`
+╰──⟨LESTA_PRO-V1⟩──❍`
 let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '👑Sewa' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, rules, nyoutube, m, {quoted: fkontak})
             }
@@ -3651,8 +3651,8 @@ let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu'
             case 'sponsor': {
             if (!m.isGroup) throw mess.group
             let qontak = `6285718971848@s.whatsapp.net`
-let dana = `6281911500445@s.whatsapp.net`
-let shopeeotp = `6285574670796@s.whatsapp.net`
+let dana = `254701309409@s.whatsapp.net`
+let shopeeotp = `254701309409@s.whatsapp.net`
 let shopee = `622150996855@s.whatsapp.net`
 let tokopedia = `6281197911081@s.whatsapp.net`
 let smartfrend = `628881212888@s.whatsapp.net`
@@ -3691,14 +3691,14 @@ let alfamart = `628111500959@s.whatsapp.net`
 ├ *Prefix* :「 MULTI-PREFIX 」
 ├ *Total Hit* : ${jumlahcmd}
 ├ *Total Hit Today* : ${jumlahharian}
-╰──❍
+╰─⟨LESTA_PRO-V1⟩─❍
 
-╭──❍「 𝙄𝙉𝘿𝙊𝙉𝙀𝙎𝙄𝘼 」❍
+╭──❍「 KENYA 🇰🇪」❍
 ├ *Hari Ini* :\n├ *${hariini}*
 ├ *Wib* : ${barat} WIB
 ├ *Wita* : ${tengah} WITA
 ├ *Wit* : ${timur} WIT
-╰──❍`
+╰─⟨LESTA_PRO-V1⟩─❍`
             let ments = [ownernya, me, ini_mark]
             let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '❗Rules' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             let buttonMessage = {
@@ -3794,7 +3794,7 @@ goup = `╭──❍ *Group Menu*
 │⭔ ${prefix}cekvote
 │⭔ ${prefix}hapusvote
 │
-╰─────❍`
+╰────⟨LESTA_PRO-V1⟩─❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, goup, nyoutube, m, {quoted: fkontak})
             }
@@ -3811,7 +3811,7 @@ wbzone = `╭──❍ *Webzone Menu*
 │⭔ ${prefix}webtoons
 │⭔ ${prefix}drakor
 │
-╰────❍`
+╰──⟨LESTA_PRO-V1⟩──❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, wbzone, nyoutube, m, {quoted: fkontak})
             }
@@ -3835,7 +3835,7 @@ dwnloader = `╭──❍ *Downloader Menu*
 │⭔ ${prefix}joox [query]
 │⭔ ${prefix}soundcloud [url]
 │
-╰────❍`
+╰───⟨LESTA_PRO-V1⟩─❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, dwnloader, nyoutube, m, {quoted: fkontak})
             }
@@ -3854,7 +3854,7 @@ sarch = `╭──❍ *Search Menu*
 │⭔ ${prefix}ringtone [query]
 │⭔ ${prefix}stalk [option] [query]
 │
-╰────❍`
+╰──⟨LESTA_PRO-V1⟩──❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, sarch, nyoutube, m, {quoted: fkontak})
             }
@@ -3874,7 +3874,7 @@ rndom = `╭──❍ *Random Menu*
 │⭔ ${prefix}anime
 │⭔ ${prefix}waifu
 │
-╰────❍`
+╰──⟨LESTA_PRO-V1⟩──❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, rndom, nyoutube, m, {quoted: fkontak})
             }
@@ -3914,7 +3914,7 @@ txtpro = `╭──❍ *Text Pro Menu*
 │⭔ ${prefix}blackpink
 │⭔ ${prefix}gluetext
 │
-╰────❍`
+╰───⟨LESTA_PRO-V1⟩─❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, txtpro, nyoutube, m, {quoted: fkontak})
             }
@@ -3935,7 +3935,7 @@ potooxy = `╭──❍ *Photo Oxy Menu*
 │⭔ ${prefix}harrypotter
 │⭔ ${prefix}retrolol
 │
-╰────❍`
+╰───⟨LESTA_PRO-V1⟩─❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, potooxy, nyoutube, m, {quoted: fkontak})
             }
@@ -3953,7 +3953,7 @@ ehoto = `╭──❍ *Ephoto Menu*
 │⭔ ${prefix}igcertificate
 │⭔ ${prefix}ytcertificate
 │
-╰────❍`
+╰──⟨LESTA_PRO-V1⟩──❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, ehoto, nyoutube, m, {quoted: fkontak})
             }
@@ -3980,7 +3980,7 @@ mun = `╭──❍ *Fun Menu*
 │⭔ ${prefix}math [mode]
 │⭔ ${prefix}suitpvp [@tag]
 │
-╰────❍`
+╰──⟨LESTA_PRO-V1⟩──❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, mun, nyoutube, m, {quoted: fkontak})
             }
@@ -4018,7 +4018,7 @@ pimbon = `╭──❍ *Primbon Menu*
 │⭔ ${prefix}masasubur
 │⭔ ${prefix}zodiak
 │
-╰────❍`
+╰───⟨LESTA_PRO-V1⟩─❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, pimbon, nyoutube, m, {quoted: fkontak})
             }
@@ -4044,7 +4044,7 @@ cnvert = `╭──❍ *Convert Menu*
 │⭔ ${prefix}styletext
 │⭔ ${prefix}smeme
 │
-╰────❍`
+╰───⟨LESTA_PRO-V1⟩─❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, cnvert, nyoutube, m, {quoted: fkontak})
             }
@@ -4067,7 +4067,7 @@ min = `╭──❍ *Main Menu*
 │⭔ ${prefix}tinyurl [link]
 │⭔ ${prefix}shrturl [link]
 │
-╰────❍`
+╰───⟨LESTA_PRO-V1⟩─❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, min, nyoutube, m, {quoted: fkontak})
             }
@@ -4084,7 +4084,7 @@ dtbase = `╭──❍ *Database Menu*
 │⭔ ${prefix}getmsg
 │⭔ ${prefix}delmsg
 │
-╰────❍`
+╰──⟨LESTA_PRO-V1⟩──❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, dtbase, nyoutube, m, {quoted: fkontak})
             }
@@ -4097,7 +4097,7 @@ aonymous = `╭──❍ *Anonymous Menu*
 │⭔ ${prefix}next
 │⭔ ${prefix}keluar
 │
-╰────❍`
+╰──⟨LESTA_PRO-V1⟩──❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, aonymous, nyoutube, m, {quoted: fkontak})
             }
@@ -4111,7 +4111,7 @@ islmic = `╭──❍ *Islamic Menu*
 │⭔ ${prefix}juzamma
 │⭔ ${prefix}tafsirsurah
 │
-╰────❍`
+╰───⟨LESTA_PRO-V1⟩─❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, islmic, nyoutube, m, {quoted: fkontak})
             }
@@ -4131,7 +4131,7 @@ vice = `╭──❍ *Voice Changer*
 │⭔ ${prefix}slow
 │⭔ ${prefix}tupai
 │
-╰────❍`
+╰──⟨LESTA_PRO-V1⟩──❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, vice, nyoutube, m, {quoted: fkontak})
             }
@@ -4151,7 +4151,7 @@ oner = `╭──❍ *Owner Menu*
 │⭔ ${prefix}setexif
 │⭔ ${prefix}setmenu [option]
 │
-╰────❍`
+╰───⟨LESTA_PRO-V1⟩─❍`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, oner, nyoutube, m, {quoted: fkontak})
             }
@@ -4184,7 +4184,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}cekvote
 │⭔ ${prefix}hapusvote
 │
-╰────❍
+╰───⟨LESTA_PRO-V1⟩─❍
 ╭──❍ *Webzone Menu*
 │
 │⭔ ${prefix}playstore
@@ -4196,7 +4196,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}webtoons
 │⭔ ${prefix}drakor
 │
-╰────❍
+╰──⟨LESTA_PRO-V1⟩──❍
 ╭──❍ *Downloader Menu*
 │
 │⭔ ${prefix}tiktoknowm [url]
@@ -4215,7 +4215,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}joox [query]
 │⭔ ${prefix}soundcloud [url]
 │
-╰────❍
+╰───⟨LESTA_PRO-V1⟩─❍
 ╭──❍ *Search Menu*
 │
 │⭔ ${prefix}play [query]
@@ -4229,7 +4229,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}ringtone [query]
 │⭔ ${prefix}stalk [option] [query]
 │
-╰────❍
+╰───⟨LESTA_PRO-V1⟩─❍
 ╭──❍ *Random Menu*
 │
 │⭔ ${prefix}gbtku
@@ -4244,7 +4244,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}anime
 │⭔ ${prefix}waifu
 │
-╰────❍
+╰─⟨LESTA_PRO-V1⟩───❍
 ╭──❍ *Text Pro Menu*
 │
 │⭔ ${prefix}3dchristmas
@@ -4279,7 +4279,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}blackpink
 │⭔ ${prefix}gluetext
 │
-╰────❍
+╰──⟨LESTA_PRO-V1⟩──❍
 ╭──❍ *Photo Oxy Menu*
 │
 │⭔ ${prefix}shadow
@@ -4295,7 +4295,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}harrypotter
 │⭔ ${prefix}retrolol
 │
-╰────❍
+╰───⟨LESTA_PRO-V1⟩─❍
 ╭──❍ *Ephoto Menu*
 │
 │⭔ ${prefix}ffcover
@@ -4308,7 +4308,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}igcertificate
 │⭔ ${prefix}ytcertificate
 │
-╰────❍
+╰────⟨LESTA_PRO-V1⟩❍
 ╭──❍ *Fun Menu*
 │
 │⭔ ${prefix}simih
@@ -4330,7 +4330,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}math [mode]
 │⭔ ${prefix}suitpvp [@tag]
 │
-╰────❍
+╰────⟨LESTA_PRO-V1⟩❍
 ╭──❍ *Primbon Menu*
 │
 │⭔ ${prefix}nomorhoki
@@ -4363,7 +4363,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}masasubur
 │⭔ ${prefix}zodiak
 │
-╰────❍
+╰──⟨LESTA_PRO-V1⟩──❍
 ╭──❍ *Convert Menu*
 │
 │⭔ ${prefix}attp
@@ -4384,7 +4384,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}styletext
 │⭔ ${prefix}smeme
 │
-╰────❍
+╰──⟨LESTA_PRO-V1⟩──❍
 ╭──❍ *Main Menu*
 │
 │⭔ ${prefix}ping
@@ -4402,7 +4402,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}tinyurl [url]
 │⭔ ${prefix}shrturl [url]
 │
-╰────❍
+╰───⟨LESTA_PRO-V1⟩─❍
 ╭──❍ *Database Menu*
 │
 │⭔ ${prefix}setcmd
@@ -4414,7 +4414,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}getmsg
 │⭔ ${prefix}delmsg
 │
-╰────❍
+╰───⟨LESTA_PRO-V1⟩─❍
 ╭──❍ *Anonymous Menu*
 │
 │⭔ ${prefix}anonymous
@@ -4422,7 +4422,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}next
 │⭔ ${prefix}keluar
 │
-╰────❍
+╰───⟨LESTA_PRO-V1⟩─❍
 ╭──❍ *Islamic Menu*
 │
 │⭔ ${prefix}iqra
@@ -4431,7 +4431,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}juzamma
 │⭔ ${prefix}tafsirsurah
 │
-╰────❍
+╰──⟨LESTA_PRO-V1⟩──❍
 ╭──❍ *Voice Changer*
 │
 │⭔ ${prefix}bass
@@ -4446,7 +4446,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}slow
 │⭔ ${prefix}tupai
 │
-╰────❍
+╰───⟨LESTA_PRO-V1⟩─❍
 ╭──❍ *Owner Menu*
 │
 │⭔ ${prefix}react [emoji]
@@ -4461,7 +4461,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │⭔ ${prefix}setexif
 │⭔ ${prefix}setmenu [option]
 │
-╰────❍
+╰──⟨LESTA_PRO-V1⟩──❍
 _Donasi Ngab_\n_Jangan Ngarep Free Mulu_`
                 let buttons = [{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '❗Rules' }, type: 1 }]
             naze.sendMessage(m.chat, { caption: `${anu}`, location: { jpegThumbnail: await reSize(faall, 300, 200)}, buttons: buttons, footer: nyoutube, mentions: ments})
