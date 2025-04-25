@@ -41,7 +41,7 @@ global.mess = {
     group: 'Command Only in Groups👥!',
     private: ' Text for Private Chat Only 🧖!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: 'Loading🇰🇪🇰🇪🇰🇪🇰🇪,'
+    wait: '.....⟨ *PROCESSING* ⟩🇰🇪🇰🇪🇰🇪🇰🇪,'
     errapi: 'invalid!',
     errmor: 'fitur  Sistem',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
@@ -50,7 +50,7 @@ global.mess = {
 // Limit
 global.limitawal = {
     premium: "Infinity",
-    free: 99999999999o
+    free: 99999999999
 }
 
 // Fake
@@ -64,7 +64,7 @@ global.myytv = 'https://youtu.be/FAsL-Jy4qLc'
 global.mygc = "https://chat.whatsapp.com/KJmsWPbJury9sE7lb67AOi"
 
 // Engak Ngaruh, Belum Kepasang
-global.botname = 'LESTA-PRO'
+global.botname = '⟨LESTA_PRO-V1⟩'
 global.akulaku = 'E L I U D'
 global.ytname = 'YT LESTA' //Kalo Ngk Punya Yt Ngak Usah Di Ganti
 
